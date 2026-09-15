@@ -46,12 +46,12 @@ export default definePluginApp((app) => {
   });
   app.slots.commandPaletteAction({
     id: "toggle",
-    title: "Tasks: toggle rail",
+    title: "Linear Panel: toggle panel",
     run: () => rail.toggle(),
   });
   app.slots.commandPaletteAction({
     id: "chat",
-    title: "Chat: focus sidebar chat",
+    title: "Linear Panel: focus chat",
     run: () => rail.focusInbox(),
   });
   app.experimental_sidebarFooter.register({
